@@ -1,0 +1,36 @@
+body{
+    background-color: #659DBD;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width:50%;
+    border: 2px dotted lime;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #DDAD86;
+}
+
+input{
+    width: 75%;
+    text-align: center;
+}
+
+h1,h2,h3{
+    color: #FBEEC1;
+}
+
+button{
+    width: 50%;
+    border-radius:20px;
+    font-size: 20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    background-color: #FBEEC1;
+    border: 2px dotted lime;
+}

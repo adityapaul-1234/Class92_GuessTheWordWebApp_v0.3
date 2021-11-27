@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Main Page </title>
+        <link rel="stylesheet" href="mainpage_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body style="background-color:#fbeec1;">  
+        <div class="container"">
+            <h4 id="player1_score">
+            <br>
+            <h4 id="player2_score">
+        </div>
+
+        <div class="container">
+            <center>
+                <h1>Guess The Word Game!</h1>
+                <hr>
+                <h2 id="player_question"> Question Turn: </h2>
+                <h2 id="player_answer"> Answer Turn: </h2>
+                <br>
+                <div id="output" class="col-lg-6"></div>
+                <br><br>
+                <input type="text" id="word" class="form-control" placeholder="Enter Word Here">
+                <br>
+                <label><b style="color: red">Note: For best experience, give a letter with 5 or more alphabets</b></label>
+                <br><br>
+                <button onclick="send()" class="btn btn-success" style="width: 10%;">Send</button>
+            </center>
+        </div>
+    <script src="mainpage_main.js"></script>
+    </body>
+</html>
